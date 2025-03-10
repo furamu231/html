@@ -1,0 +1,1 @@
+import './moduleB'; // moduleBでインポートした内容を実行

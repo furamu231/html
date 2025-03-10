@@ -1,0 +1,50 @@
+/* display、color系、size系、width、heightなどを用いた何かしらの実装を行った。
+実装したコードを元に、これらのプロパティの役割を説明できる。
+（フレームワークを利用している場合も可能） */
+
+/* 全体の基本設定 */
+body {
+    background-color: #f5f5f5; /* 背景色 */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* タイトル */
+  .title {
+    color: #333; /* 文字色 */
+    text-align: center; /* 中央揃え */
+    font-size: 32px; /* 文字サイズ */
+    margin: 20px 0;
+  }
+  
+  /* ボックスを並べるコンテナ */
+  .container {
+    display: flex; /* 横並びにする */
+    justify-content: center; /* 中央寄せ */
+    gap: 20px; /* ボックス間の余白 */
+  }
+  
+  /* ボックスの共通スタイル */
+  .box {
+    width: 150px; /* 幅 */
+    height: 150px; /* 高さ */
+    color: #fff; /* 文字色（白） */
+    font-size: 18px; /* 文字サイズ */
+    display: flex; /* 中央寄せのため */
+    justify-content: center; /* 横中央 */
+    align-items: center; /* 縦中央 */
+    border-radius: 8px; /* 角丸 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 影 */
+  }
+  
+  /* 個別のボックス色 */
+  .red {
+    background-color: #e74c3c;
+  }
+  
+  .green {
+    background-color: #2ecc71;
+  }
+  
+  .blue {
+    background-color: #3498db;
+  }

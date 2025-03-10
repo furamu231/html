@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;                 /* グリッドを開始！ */
+    grid-template-columns: repeat(2, 100px);  /* 2列を作る */
+    gap: 10px;                     /* アイテム間のスペース */
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+  }

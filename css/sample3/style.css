@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;                /* Flexbox開始！ */
+    justify-content: space-between; /* 両端に要素を配置 */
+    align-items: center;          /* 垂直方向に中央揃え */
+    padding: 20px 40px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;                /* メニューアイテムを横並び */
+    gap: 20px;                    /* 要素間にスペースを作る */
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
